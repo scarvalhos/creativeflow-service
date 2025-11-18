@@ -97,13 +97,9 @@ Contribuições são bem-vindas! Se quiser colaborar:
 3. Faça suas alterações e adicione testes, se necessário
 4. Abra um Pull Request com uma descrição clara do que mudou
 
----
-
 ## 📝 Licença
 
 Este projeto está sob a licença **MIT** (ou outra licença, se for o caso).
-
----
 
 ## 👤 Autor
 
