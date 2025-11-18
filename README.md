@@ -4,27 +4,26 @@ Backend para o serviço **CreativeFlow** — uma API construída com **Node.js**
 
 ## 🧱 Tecnologias
 
-- Node.js  
-- TypeScript  
-- Fastify  
+- Node.js
+- TypeScript
+- Fastify
 - (Possivelmente) outras bibliotecas, como validação, ORM, etc — dependendo da implementação (ajuste conforme seu código)
 
 ## 📦 Funcionalidades
 
-- Rotas de usuário (GET, POST, etc) via controllers  
-- Organização em camadas (Controller → Service → Repository)  
-- Código tipado com TypeScript  
-- Facilidade para adicionar novas rotas / domínios  
-
----
+- Rotas de usuário (GET, POST, etc) via controllers
+- Organização em camadas (Controller → Service → Repository)
+- Código tipado com TypeScript
+- Facilidade para adicionar novas rotas / domínios
 
 ## 🚀 Como rodar localmente
 
-1. Clone o repositório  
+1. Clone o repositório
+
    ```bash
    git clone https://github.com/scarvalhos/creativeflow-service.git
    cd creativeflow-service
-````
+   ```
 
 2. Instale as dependências
 
@@ -36,8 +35,8 @@ Backend para o serviço **CreativeFlow** — uma API construída com **Node.js**
 
 3. Crie um arquivo de variáveis de ambiente
 
-   * Copie `.env.example` para `.env` (se houver)
-   * Preencha as variáveis de ambiente necessárias (porta, banco, credenciais, etc)
+   - Copie `.env.example` para `.env` (se houver)
+   - Preencha as variáveis de ambiente necessárias (porta, banco, credenciais, etc)
 
 4. Execute em modo de desenvolvimento
 
@@ -53,8 +52,6 @@ Backend para o serviço **CreativeFlow** — uma API construída com **Node.js**
    npm start
    ```
 
----
-
 ## 🔧 Scripts úteis
 
 | Script          | Descrição                                            |
@@ -65,35 +62,16 @@ Backend para o serviço **CreativeFlow** — uma API construída com **Node.js**
 | `npm test`      | Executa os testes (se existirem)                     |
 | `npm lint`      | Verifica problemas de estilo / lint (se configurado) |
 
----
-
-## 🧪 Testes
-
-*(Se você tiver testes)*
-Explique como rodar os testes, por exemplo:
-
-```bash
-npm test
-# ou
-npm run test:watch
-```
-
-Se você usa alguma ferramenta específica de teste (ex: Jest, Vitest, node:test), detalhe-a aqui.
-
----
-
 ## 📐 Arquitetura
 
 Este projeto segue uma estrutura em camadas:
 
-* **Controllers**: recebem requisições HTTP e delegam para os serviços
-* **Services**: contêm a lógica de negócio
-* **Repositories**: abstraem o acesso a dados (banco ou outros repositórios)
-* **Rotas**: definem os endpoints e fazem a ligação entre os controllers e o app Fastify
+- **Controllers**: recebem requisições HTTP e delegam para os serviços
+- **Services**: contêm a lógica de negócio
+- **Repositories**: abstraem o acesso a dados (banco ou outros repositórios)
+- **Rotas**: definem os endpoints e fazem a ligação entre os controllers e o app Fastify
 
 Esse padrão facilita **testabilidade**, **manutenção** e **escalabilidade**.
-
----
 
 ## 🔐 Variáveis de Ambiente
 
@@ -101,21 +79,14 @@ Aqui estão algumas variáveis de ambiente comuns que podem ser utilizadas (ajus
 
 | Variável       | Descrição                                        |
 | -------------- | ------------------------------------------------ |
-| `PORT`         | Porta onde o servidor roda (ex: `3000`)          |
+| `PORT`         | Porta onde o servidor roda (ex: `3333`)          |
 | `DATABASE_URL` | URL de conexão com o banco de dados              |
 | `JWT_SECRET`   | Segredo para tokens JWT (se houver autenticação) |
 | `NODE_ENV`     | Ambiente (`development`, `production`)           |
 
----
-
 ## 📄 Documentação da API
 
-Se você tiver documentação da API (Swagger / OpenAPI, Postman, etc), explique onde encontrá-la. Exemplo:
-
-* Acesse `http://localhost:3000/docs` para ver a documentação Swagger (caso esteja configurado).
-* Ou compartilhe o link do Postman / Swagger.
-
----
+- Acesse `http://localhost:3333/docs` para ver a documentação Swagger.
 
 ## 🤝 Contribuição
 
@@ -136,4 +107,4 @@ Este projeto está sob a licença **MIT** (ou outra licença, se for o caso).
 
 ## 👤 Autor
 
-* **Scarvalhos** — [github.com/scarvalhos](https://github.com/scarvalhos)
+- **Scarvalhos** — [github.com/scarvalhos](https://github.com/scarvalhos)
